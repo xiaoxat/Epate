@@ -6,7 +6,7 @@ install_requires = ['requests==2.31.0']
  
 setup(
     name="Epate",
-    version="1.0.1",
+    version="1.0.9",
     author="xiaoxlh",
     author_email="xiaoxiaogzs@outlook.com",
     description="A python library for many API of the codemao's website.",
