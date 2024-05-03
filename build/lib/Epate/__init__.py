@@ -2,7 +2,6 @@ import requests
 
 session = requests.Session
 
-
 def login(username, password, print='no'):
 
     login_data = {
@@ -10,7 +9,8 @@ def login(username, password, print='no'):
         'identity': username,
         'password': password
     }
-    result = session.post(url='https://api.codemao.cn/tiger/v3/web/accounts/login',json=login_data)
+    result = session.post('https://api.codemao.cn/tiger/v3/web/accounts/login',
+                          json=login_data)
     code = str(result.status_code)
     global get
 
@@ -107,7 +107,6 @@ def psc(old_password, new_password, print='no'):
     result = session.patch("/tiger/v3/web/accounts/info", data=change)
 
     global get
-
     def get():
         return (result.text)
 
@@ -191,7 +190,6 @@ def follow(userid, print='no'):
     result = session.post("https://api.codemao.cn/nemo/v2/user/" + userid +
                           "/follow")
     global get
-
     def get():
         return (result.text)
 
