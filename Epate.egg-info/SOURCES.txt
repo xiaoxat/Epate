@@ -2,7 +2,6 @@ LICENSE
 README.md
 setup.py
 Epate/__init__.py
-Epate/epate.py
 Epate.egg-info/PKG-INFO
 Epate.egg-info/SOURCES.txt
 Epate.egg-info/dependency_links.txt

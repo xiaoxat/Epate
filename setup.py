@@ -2,16 +2,16 @@ from setuptools import setup, find_packages
 
 from pkg_resources import parse_requirements
 
-install_requires = ['requests==2.31.0']
+install_requires = ['requests']
 
 setup(name="Epate",
-      version="1.1.0",
+      version="1.4.0",
       author="xiaoxlh",
       author_email="xiaoxiaogzs@outlook.com",
       description="A python library for many API of the codemao's website.",
-      long_description="eds sdk for python",
+      long_description="look at https://github.com/xiaoxat/Epate",
       license="Apache License, Version 2.0",
-      url="https://xiao.asia",
+      url="https://xihl.cn",
       classifiers=[
           'Development Status :: 3 - Alpha',
           'Intended Audience :: Developers',
