@@ -2,7 +2,7 @@
 ## Install
 Install by pip(Recommend)
 
-`pip install epaste`
+`pip install Epate`
 
 ## Guide
 ### 1.Login Function
